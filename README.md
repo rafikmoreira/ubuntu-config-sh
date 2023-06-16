@@ -1,5 +1,7 @@
 # Ubuntu Development Setup Script
 
+<img src="./.repo-image/ferreiro.png">
+
 This script configures a new Ubuntu installation with basic packages and tools for development. It includes the installation of various packages, configuration of ZSH with Oh My ZSH, installation of Node.js with NVM, setup of Docker, and more.
 
 ## Prerequisites
