@@ -132,8 +132,12 @@ fc-cache -f -v
 wget https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.28.1.15219.tar.gz
 tar -xzf jetbrains-toolbox-1.28.1.15219.tar.gz
 rm -f jetbrains-toolbox-1.28.1.15219.tar.gz
-# give execute permission
 sudo chmod +x jetbrains-toolbox-1.28.1.15219/jetbrains-toolbox
 ./jetbrains-toolbox-1.28.1.15219/jetbrains-toolbox
+
+# Install Java JDK 20
+wget https://download.oracle.com/java/20/latest/jdk-20_linux-x64_bin.deb
+sudo apt install ./jdk-20_linux-x64_bin.deb -y
+rm -f jdk-20_linux-x64_bin.deb
 
 sudo reboot
