@@ -14,7 +14,7 @@ Open a terminal.
 2. bash
 
 ```sh
-wget <https://raw.githubusercontent.com/rafikmoreira/ubuntu-config-sh/main/setup.sh>
+wget https://raw.githubusercontent.com/rafikmoreira/ubuntu-config-sh/main/setup.sh
 ```
 
 3. Make the script executable:
